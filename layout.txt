@@ -11,3 +11,26 @@
 
       </section>
 </div>
+
+
+
+      <section className="md:col-span-2 bg-gray-800 border px-4 pb-4 text-white border-zinc-200 rounded-md shadow-md">
+        <details>
+          <summary className="text-lg font-bold mt-4">
+            Ver el codigo fuente en JavaScript
+          </summary>
+              <pre>
+                <code>
+                  <SyntaxHighlighter language="javascript" style={dracula}>
+                    {`
+              
+              
+              
+              
+              `}
+                  </SyntaxHighlighter>
+                </code>
+              </pre>
+    
+          </details>
+        </section>
