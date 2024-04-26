@@ -13,15 +13,15 @@ function App() {
     <div>
       <Menu />
       <div className="grid gap-8 px-4 md:px-12 pt-20 ">
-        {/* <header className="font-bold">Listas enlazadas</header>
+        <header className="font-bold">Listas enlazadas</header>
 
         <details  className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
             Ejercicio Nº 1 Listas enlazadas
           </summary>
           <ListaAdd />
-        </details> */}
-        <details  className="rounded-md bg-blue-200 pb-4 px-4">
+        </details>
+        {/* <details  className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
             Ejercicio Nº 1 Listas enlazadas
           </summary>
@@ -81,7 +81,7 @@ function App() {
           </summary>
 
           <ListaOne />
-        </details>
+        </details> */}
       </div>
     </div>
   );
