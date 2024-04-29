@@ -63,7 +63,7 @@ function App() {
 
           <PilaThree />
         </details>
-        <details open  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details   className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
             Ejercicio Nº 1 Colas
           </summary>
